@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DataGraphViewController.h
 //  IOT-EXAMPLE
 //
 //  Created by Sankaet Pathak on 12/6/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
-
+@interface DataGraphViewController : UIViewController
+@property (strong, nonatomic) NSMutableDictionary *data;
 @end
-
